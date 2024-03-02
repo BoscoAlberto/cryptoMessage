@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rubrica Telefonica Criptata</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+    <div class="container">
+        
+        <div class="box-contatti">
+            
+            <div class="left"></div>
+                <div class="rigt">
+                    <h1>Messaggio:</h1>
+                     
+                     
+                    <form id="addForm">
+                    
+
+                    <input type="text" id="nameInput" placeholder="Messaggio">
+                    <p></p> 
+                    <input type="password" id="passwordInput" placeholder="Password">
+                    <p></p> 
+                    <button type="submit">Aggiungi</button>
+                    </form>
+                    <h2>Messaggi in memoria</h2>
+                    <ul id="phonebook"></ul>
+
+                    <form id="decryptForm">
+                    <input type="password" id="decryptPasswordInput" placeholder="Password">
+                    <p></p> 
+                    <button type="submit">Visualizza Messaggi</button>
+                    </form>
+                    <p></p> 
+
+                    <button id="clearButton">Cancella Messaggi</button>
+                </div>
+            </div>
+        </div>
+
+<script src="script.js"></script>
+</body>
+</html>
